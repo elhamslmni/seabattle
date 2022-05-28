@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="scorepane" prefHeight="690.0" prefWidth="1000.0" style="-fx-background-color: pink; -fx-opacity: 2;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.scoreboard">
+   <children>
+      <Text fx:id="scoreboard" fill="WHITE" layoutX="370.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="score board" wrappingWidth="497.3367004394531">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="36.0" layoutY="598.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="46.0" style="-fx-background-color: aqua;" text="back" textFill="WHITE" />
+      <Button layoutX="954.0" layoutY="21.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: red;" text="X" textFill="WHITE" />
+   </children>
+</AnchorPane>

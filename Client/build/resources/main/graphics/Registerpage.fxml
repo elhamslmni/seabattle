@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="registerpage" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ffadda;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Registerpage">
+   <children>
+      <TextField fx:id="newusername" layoutX="299.0" layoutY="170.0" prefHeight="30.0" prefWidth="177.0" promptText="username" style="-fx-background-radius: 22;" />
+      <TextField fx:id="newpassword" layoutX="299.0" layoutY="224.0" prefHeight="30.0" prefWidth="177.0" promptText="password" style="-fx-background-radius: 22;" />
+      <Button layoutX="299.0" layoutY="290.0" mnemonicParsing="false" onAction="#create" prefHeight="30.0" prefWidth="77.0" style="-fx-background-radius: 11; -fx-background-color: #ff2ac3;" text="create" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="290.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="78.0" style="-fx-background-radius: 11; -fx-background-color: #ff2ac3;" text="back" textFill="#f4f0f3">
+         <font>
+            <Font name="Ebrima" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="733.0" layoutY="23.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="34.0" style="-fx-background-radius: 11; -fx-background-color: #ff2ac3;" text="x" textFill="#f4f0f3">
+         <font>
+            <Font name="Ebrima" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

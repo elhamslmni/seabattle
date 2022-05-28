@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="choosepage4" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.choosegame">
+   <children>
+      <Text fill="RED" layoutX="404.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="choose a game" wrappingWidth="235.13601684570312">
+         <font>
+            <Font name="Arial Bold" size="32.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="choosebox" layoutX="204.0" layoutY="215.0" prefHeight="26.0" prefWidth="664.0" style="-fx-background-color: red; -fx-background-radius: 22;" />
+      <Button layoutX="23.0" layoutY="503.0" mnemonicParsing="false" onAction="#back" prefHeight="70.0" prefWidth="87.0" style="-fx-background-color: black;" text="back" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="945.0" mnemonicParsing="false" onAction="#exit" prefHeight="36.0" prefWidth="54.0" style="-fx-background-color: black;" text="x" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

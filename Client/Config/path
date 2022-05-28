@@ -1,0 +1,12 @@
+first_page=/graphics/firstpage.fxml
+login_page=/graphics/loginpage.fxml
+register_page=/graphics/Registerpage.fxml
+game_page=/graphics/gameboard.fxml
+watch_page=/graphics/watchingpage.fxml
+menu_page=/graphics/menu.fxml
+scoreboard_page=/graphics/scoreboard.fxml
+waiting_page=/graphics/waitingpage.fxml
+winner_page=/graphics/winnerpage.fxml
+info_page=/graphics/infopage.fxml
+cell=/graphics/cell.fxml
+choose_game=/graphics/choosegame.fxml
